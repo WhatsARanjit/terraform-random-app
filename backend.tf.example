@@ -1,0 +1,9 @@
+terraform {
+  backend "remote" {
+    organization = "ranjit-org"
+
+    workspaces {
+     name = "random_app"
+    }
+  }
+}
