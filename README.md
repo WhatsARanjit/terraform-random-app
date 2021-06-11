@@ -19,3 +19,7 @@ module "random_app" {
 ### Optional variables
 
 *vpc_id* - Use if creating in an existing VPC.
+
+#### Metadata
+
+*updated* - 2021-06-05
